@@ -20,20 +20,6 @@ public class ReplacementGrammar
 
         int N = lineCount;
 
-        System.out.println("line count is " + N);
-
-        /*
-        while (temp.hasNextLine())
-        {
-            curr = temp.nextLine();
-            System.out.println("currline is " + lineCount);
-            if (!curr.equals(""))
-                break;
-            else
-                lineCount++;
-        }
-        */
-
         Scanner in = new Scanner(new File(args[0]));
         String[] toBeReplaced = new String[N];
         String[] replacement = new String[N];
@@ -62,6 +48,6 @@ public class ReplacementGrammar
             message = message.replace(toBeReplaced[i], replacement[i]);
         }
 
-        //System.out.println(message);
+        System.out.println(message);
     }
 }

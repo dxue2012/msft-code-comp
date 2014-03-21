@@ -26,6 +26,7 @@ public class ClockAngles
             int minutes = Integer.parseInt(data[1]);
             int seconds = Integer.parseInt(data[2]);
 
+            /* Doing the math... */
             double sAng = 6 * seconds;
             double mAng = 6 * minutes + 0.1 * seconds;
             double hAng = 30 * hours + 0.5 * minutes + seconds/120.0;
