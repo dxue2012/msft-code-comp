@@ -1,13 +1,11 @@
-msft-code-comp
+Microsoft Coding Competition 2014
 ==============
-
-# Microsoft Code Competition 2014
 
 ## Info
 
-Programming competition hosted by Microsoft at Princeton University on February 17, 2014.
+Solutions to problems from programming competition hosted by Microsoft at Princeton University on February 17, 2014.
 
-## Team Members
+## CDN Team Members
 
 - Chong Gu
 - Naphat Sanguansin
